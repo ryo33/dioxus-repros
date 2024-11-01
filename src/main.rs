@@ -12,10 +12,7 @@ fn main() {
 
 fn App() -> Element {
     rsx! {
-        SuspenseBoundary {
-            fallback: |_| { rsx! { "Loading..." } },
-            Text {}
-        }
+        Text {}
     }
 }
 
